@@ -1,0 +1,23 @@
+StockSense / inventory_management
+================================
+
+Client document coverage:
+- Target users: Inventory Managers; Warehouse Staff
+- Authentication: signup/login + OTP password reset
+- Dashboard KPIs and dynamic document/status/warehouse/location/category filters
+- Products: create/update, SKU, category, UOM, initial stock, location availability, reorder level
+- Receipts: incoming stock + validation increases stock
+- Delivery Orders: Pick -> Pack -> Validate; validation decreases stock
+- Internal Transfers: source/destination movement with ledger
+- Inventory Adjustment: physical count -> automatic difference -> ledger
+- Move History / Stock Ledger
+- Low-stock warning notifications
+- Multi-warehouse support
+- SKU/product/warehouse smart search
+- Profile menu and logout
+
+Module name: inventory_management
+UI style: Odoo 19-inspired Inventory application layout
+Database: PostgreSQL / odoo_hk_stock_management
+
+The document does not specify additional business rules beyond the above; the implementation does not add unrelated modules.
